@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clock_parent{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-items: center;
+}
+.clock{
+    background-image: url("../image/old-enamel-dial.jpg");
+    height:500px;
+    width: 500px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* align-items: center; */
+}
+.hour{
+position: absolute;
+    background-color:black;
+    height: 65px;
+    width: 6px;
+    transform-origin:bottom ;
+    top: 185px;
+    left: 250px;
+    /* display: none; */
+}
+.mint{
+    position: absolute;
+    background-color: black;
+    height: 95px;
+    width: 3px;
+    transform-origin:bottom ;
+    top: 155px;
+    left: 250px;
+    /* display: none; */
+}
+.sec{
+    position: absolute;
+    background-color:black;
+    height: 110px;
+    width: 1px;
+    transform-origin:bottom ;
+    top: 140px;
+    left: 250px;
+    /* display: none; */
+}
